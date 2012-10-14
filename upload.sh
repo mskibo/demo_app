@@ -4,4 +4,4 @@ git add .
 git commit -a -m "Checkins"
 git push
 git push heroku master
-heroku rake db:migrate
+heroku run rake db:migrate
